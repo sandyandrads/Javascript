@@ -1,0 +1,105 @@
+html {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  width: 80%;
+  margin-left: 10%;
+}
+
+header h1 {
+  padding: 5% 0;
+  font-size: 30px;
+}
+
+header p {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#bloco {
+  margin-left: 5%;
+  width: 65%;
+}
+
+.blocos-do-form {
+  padding: 2% 0;
+  margin: 1% 0;
+  display: flex;
+  flex-direction: column;
+  background: #595959;
+  border-radius: 15px;
+}
+
+
+nav {
+  width: 30%;
+  height: 50%;
+}
+
+label {
+  font-size: 25px;
+  margin-left: 15%;
+  color: white;
+}
+
+li {
+  font-size: 20px;
+  margin-bottom: 5%;
+  font-family: sans-serif;
+}
+
+
+ul {
+  display: flex;
+  flex-direction: column;
+  padding: 10%;
+  align-items: center;
+  background: #b3b3b3;
+  border-radius: 15px;
+}
+
+input {
+  width: 50%;
+  margin-top: 2%;
+  margin-left: 5%;
+  padding: 1%;
+}
+
+#unico-botao {
+  padding-right: 3%;
+  align-items:flex-end;
+}
+
+button {
+  width: 25%;
+  margin-top: 2%;
+  padding: 2%;
+}
+
+
+#imgHeader {
+  width: 100%;
+  border-radius: 50%;
+}
+
+#resposta {
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30px;
+  padding: 5%;
+  display: none;
+}
+
+#mostrar-valorHora{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 50px;
+}

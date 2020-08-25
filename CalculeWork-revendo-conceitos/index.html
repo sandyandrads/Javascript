@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Github: @sandyandrads</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+
+  <body>
+
+    <container id="conteudo-principal">
+      <nav id="meus-links">
+        <img src="img/man-working.jpg" alt="Homem trabalhando" id="imgHeader">
+        <ul>
+        <li>Linkedin</li>
+        <li>Github</li>
+        </ul>
+      </nav>
+      <div id="bloco">
+        <div class="blocos-do-form">
+          <label for="name">Insira seu nome:</label>
+          <input type="text" name="name" id="nome" placeholder="Meu nome" required>
+        </div>
+
+        <div class="blocos-do-form">
+          <label>Qual o valor do projeto</label>
+          <input id="inserir-valor-projeto" type="text" placeholder="0.000,00" requiered>
+        </div>
+
+        <div class="blocos-do-form">
+          <label>Dias efetivos dedicados</label>
+          <input id="inserir-dias-efetivos" type="text" required>
+        </div>
+
+        <div class="blocos-do-form">
+          <label>Horas diarias dedicadas</label>
+          <input id="inserir-horas-dedicadas" type="number">
+        </div>
+
+        <div class="blocos-do-form">
+          <label>Dias de férias</label>
+          <input id="inserir-dias-ferias" type="number" value="0" />
+        </div>
+      </div>
+    </container>
+
+    <div id="bloco-resposta" class="blocos-do-form">
+      <div id="resposta">
+        <spam id="mostrar-nome">Nome</spam>
+        <p>O valor da sua hora é:</p>
+        <p id="mostrar-valorHora">0</p>
+      </div>
+
+      <div id="unico-botao" class="blocos-do-form">
+        <button type="submit" name="botao-form" id="botao-enviar">Calcular!</button>
+      </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/calcularHora.js"></script>
+    <script src="js/acaoSecundaria.js"></script>
+
+  </body>
+</html>
